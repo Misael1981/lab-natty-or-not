@@ -7,7 +7,7 @@ Este é um monólogo fictício como se Allan Turing voltasse a Terra e visse no 
 ## 🤖 Tecnologias Utilizadas
 - IA Generativa **[ Microsoft Copilot](https://copilot.microsoft.com/)** para roteirização e revisão;
 - IA Generativa **[ElevenLabs](https://www.elevenlabs.io)** para sintetização de voz;
-- IA Generativa **[Kling AI](https://klingai.com/)** para edição e montagem do podcast.
+- IA Generativa **[Kling AI](https://klingai.com/)** para criação de um vídeo ilustrativo.
 
 ## 🧐 Processo de Criação
 - O "Copilot" foi utilizado para desenvolver o roteiro e aprimorar a narrativa de um monólogo de Allan Turing encantado ao ver o que as IAs se transformaram. 
@@ -19,10 +19,13 @@ Este é um monólogo fictício como se Allan Turing voltasse a Terra e visse no 
 O monólogo traz uma reflxão otimista, porém responsável sobre o atual momento histórico e evolutivo...
 
 <audio controls>
+
   <source src="assets/audio.mp3"   
  type="audio/mp3">
-  Your browser does not support the audio element.
+  Seu browser não suporta o elemento de áudio.
+
 </audio>
 
 ## 💭 Reflexão
+
 O projeto destacou a versatilidade das IAs Generativas na criação de conteúdo auditivo, abrindo novos caminhos para a produção de mídia digital.
