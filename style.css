@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-dark: #161616;
+    --bg-dark-medium: #1D1D1D;
+    --bg-dark-light: #333333;
+
+    --font-family: "Roboto", sans-serif;
+    --color-ligth: #F5F5F5;
+    --color-title: #c0bebe;
+}
+
+html {
+    font-family: var(--font-family);
+    font-size: 62%;
+}
+
+body {
+    background-color: var(--bg-dark-medium);
+    width: 100%;
+}
+
+section {
+    width: 85vw;
+    background-color: var(--bg-dark-light);
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+/*============= Header ==============*/
+
+header {
+    height: 10vh;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-title);
+    background-color: var(--bg-dark);
+    margin-bottom: 2rem;
+}
+
+/*============= Main Content ==============*/
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;    
+    color: var(--color-title);
+    margin-bottom: 2rem;
+}
+
+section iframe {
+    width: 100%;
+}
+
+section audio {
+    width: 70vw;
+}
+
+/*============= Descripition ==============*/
+
+.description h2 {
+    font-size: 2.8rem;
+    color: var(--color-title);
+    padding-bottom: 1.5rem;
+}
+
+.description p {
+    font-size: 2rem;
+    color: var(--color-ligth);
+    padding: 2rem 0;
+}
+
+.descriptions__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-title);
+}
+
+.aplicativo img {
+    border-radius: 50%;
+}
+
+.descrioption__result {
+    padding-top: 2rem;
+}
+
+/*============= Footer ==============*/
+
+footer {
+    background-color: var(--bg-dark);
+    height: auto;
+    color: var(--color-ligth);
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+footer p {
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-title);
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+/*============= Footer ==============*/
+
+@media (width > 650px) {
+    section {
+        width: 75vw;
+    }
+
+    header {
+        font-size: 2rem;
+    }
+}
+
+@media (width > 950px) {
+    section {
+        width: 60vw;
+    }
+    section audio {
+        width: 40vw;
+    }
+}
+
+@media (width > 1250px) {
+    section {
+        width: 50vw;
+    }
+}
