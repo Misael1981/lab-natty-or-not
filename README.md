@@ -20,11 +20,12 @@ O monólogo traz uma reflxão otimista, porém responsável sobre o atual moment
 
 <audio controls>
 
-  <source src="assets/audio.mp3"   
- type="audio/mp3">
+  <source src="assets/audio.mp3"  type="audio/mp3">
   Seu browser não suporta o elemento de áudio.
 
 </audio>
+
+- ### Caso não abra o áudio no seu browser [cliqui aqui](https://misael1981.github.io/lab-natty-or-not/)
 
 ## 💭 Reflexão
 
